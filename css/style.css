@@ -4,21 +4,21 @@ img {
 
 .logo {
   margin-bottom: 6em;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   opacity: 0.85;
 }
 
 .intro {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: #777;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
 }
 
 h1 {
   font-weight: 300;
   font-size: 14px;
-  color: #777;
+  color: #555;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
@@ -28,7 +28,7 @@ h1 {
   margin: 2em auto 1em;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 15px !important;
 }
 
@@ -49,4 +49,10 @@ h1 {
   opacity: 1;
   border-bottom: 1px solid #ffc;
   background-color: #ffc;
+}
+
+@media (min-width: 460px) {
+  .intro {
+    font-size: 24px;
+  }
 }
