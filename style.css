@@ -25,10 +25,28 @@ h1 {
 }
 
 .button {
-  margin-top: 2em;
-  margin-bottom: 6em;
+  margin: 2em auto 1em;
   text-transform: uppercase;
   font-weight: 400;
   font-family: 'Open Sans';
   font-size: 15px !important;
+}
+
+.intro-links {
+  display: block;
+  margin-bottom: 6em;
+}
+
+.intro-links a {
+  color: #aaa;
+  opacity: 0.8;
+  border-bottom: 1px solid;
+  padding: 2px;
+}
+
+.intro-links a:hover {
+  color: #aaa;
+  opacity: 1;
+  border-bottom: 1px solid #ffc;
+  background-color: #ffc;
 }
